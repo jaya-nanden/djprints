@@ -314,7 +314,7 @@ button:hover::before, .button:hover::before {
 
 .header__logo img {
   width: 8.8125rem;
-  height: 1.375rem;
+  height: 2.375rem;
 }
 
 .header__toggle > span {
@@ -482,11 +482,6 @@ button:hover::before, .button:hover::before {
   }
 }
 
-.feature img {
-  width: 50px;
-  height: 50px;
-}
-
 .feature__intro {
   padding-bottom: 3.75rem;
 }
@@ -544,6 +539,11 @@ button:hover::before, .button:hover::before {
 
 .feature__icon {
   margin-bottom: 1.075rem;
+}
+
+.feature__icon img {
+  width: 50px;
+  height: 50px;
 }
 
 @media (min-width: 64em) {
@@ -655,6 +655,10 @@ button:hover::before, .button:hover::before {
 
 .footer__logo {
   display: inline-block;
+}
+
+.footer__logo img {
+  height: 50px;
 }
 
 @media (max-width: 63.9375em) {
