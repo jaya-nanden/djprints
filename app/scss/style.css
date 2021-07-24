@@ -307,14 +307,26 @@ button:hover::before, .button:hover::before {
 .header nav {
   position: relative;
   background-color: white;
-  padding-top: 1.0625rem;
-  padding-bottom: 1.0625rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
   z-index: 2;
 }
 
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header__logo img {
-  width: 8.8125rem;
-  height: 2.375rem;
+  margin-top: 0.5rem;
+  width: 5.8125rem;
+  height: 4.5rem;
+}
+
+.header__logo p {
+  margin-top: 2rem;
+  color: black;
 }
 
 .header__toggle > span {
@@ -371,7 +383,7 @@ button:hover::before, .button:hover::before {
   height: 5px;
   left: 0;
   right: 0;
-  bottom: -30px;
+  bottom: -42px;
   background: #31d35c;
   opacity: 0;
   -webkit-transition: opacity 300ms ease-in;
@@ -658,7 +670,7 @@ button:hover::before, .button:hover::before {
 
 .footer__logo img {
   height: 45px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 @media (max-width: 63.9375em) {

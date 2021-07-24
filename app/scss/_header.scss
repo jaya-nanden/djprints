@@ -34,16 +34,23 @@
     nav {
         position: relative;
         background-color: $white;
-        padding-top: 1.0625rem;
-        padding-bottom: 1.0625rem;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
         z-index: 2;
     }
 
     &__logo {
 
+        display: flex;
         img {
-            width: 8.8125rem;
-            height: 2.375rem;
+            margin-top: 0.5rem;
+            width: 5.8125rem;
+            height: 4.5rem;
+        }
+
+        p {
+            margin-top: 2rem;
+            color: black;
         }
     }
 
@@ -104,7 +111,7 @@
                 height: 5px;
                 left: 0;
                 right: 0;
-                bottom: -30px;
+                bottom: -42px;
                 background: $limeGreen;
                 opacity: 0;
                 transition: opacity 300ms ease-in;
